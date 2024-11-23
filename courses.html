@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدورات التدريبية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8f5; /* خلفية خضراء فاتحة */
+            color: #333;
+        }
+        header, footer {
+            background-color: #38b48d; /* لون أخضر داكن */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-weight: bold;
+        }
+        .course-table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف حول الجدول */
+        }
+        .course-table th, .course-table td {
+            border: 1px solid #d3d3d3; /* حدود رمادية خفيفة */
+            padding: 12px;
+            text-align: center;
+        }
+        .course-table th {
+            background-color: #a1d6b9; /* خلفية خضراء فاتحة للعناوين */
+            color: #333;
+            font-weight: bold;
+        }
+        .course-table tr:nth-child(even) {
+            background-color: #d4efdf; /* خلفية خضراء فاتحة جداً لصفوف الجدول */
+        }
+        .course-table tr:nth-child(odd) {
+            background-color: #f7fcfa; /* خلفية بيضاء لصفوف الجدول */
+        }
+        .note {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 10px;
+        }
+        a {
+            color: #38b48d; /* لون أخضر داكن للنصوص */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #228b6a; /* لون أخضر أغمق عند التمرير */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>الدورات التدريبية</h1>
+    </header>
+
+    <p class="note">اضغط على اسم الدورة لعرض تفاصيل الشهادة.</p>
+
+    <table class="course-table">
+        <tr>
+            <th>السنة</th>
+            <th>اسم البرنامج التدريبي  </th>
+            <th>المدة</th>
+            <th>الجهة</th>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td><a href="courses/2024/AI.pdf">مقدمة في الذكاء الاصطناعي</a></td>
+            <td>  20 يوم </td>
+            <td>مؤسسة معتمدة</td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td><a href="courses/2024/cyber.pdf">التدريب على مهارات محلل الأمن السيبراني</a></td>
+            <td> 10 ايام  </td>
+            <td>CompTIA</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td><a href="courses/2023/comunication.pdf"> تقنية الإتصالات </a></td>
+            <td> 60 ساعة</td>
+            <td>ضمن مشروع إعادة تأهيل أعضاء هيئة التدريب </td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td><a href="courses/2023/classRoom.pdf">كاريزما الإدارة الصفية الناجحة</a></td>
+            <td>4 أيام</td>
+            <td>مركز الإحترافي الدولي</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td><a href="courses/2023/TOT.pdf">دورة تدريب المدربين (TOT)</a></td>
+            <td> 6 أيام</td>
+            <td>معهد القمة المتطورة للتدريب</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td><a href="courses/2023/traning_package.pdf">إعداد وتصميم الحقائب التدريبية</a></td>
+            <td>3 أيام </td>
+            <td>معهد القمة المتطورة للتدريب</td>
+        </tr>
+
+        <tr>
+            <td>2023</td>
+            <td><a href="courses/2023/CISCO sybersecurity-certificate.pdf">مقدمة في الأمن السيبراني - Cisco</a></td>
+            <td> تُقدر بحوالي 20 ساعة</td>
+            <td>Cisco Networking Academy</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td><a href="courses/2023/IOT-certificate.pdf">أساسيات إنترنت الأشياء - Cisco</a></td>
+            <td> تُقدر بحوالي 20 ساعة</td>
+            <td>Cisco Networking Academy</td>
+        </tr>
+
+     
+        <tr>
+            <td>2022</td>
+            <td><a href="courses/2022/SarahAbdullah Alshehr-CCNA4 V7-certificate.pdf">توسيع الشبكات (ضمن برنامج CCNA من Cisco)</a></td>
+            <td> تُقدر بحوالي 40 ساعة</td>
+            <td>Cisco Networking Academy</td>
+        </tr>
+        <tr>
+            <td>2022</td>
+            <td><a href="courses/2022/certificate smartmethods .pdf">هندسة الروبوتات الشاملة</a></td>
+            <td> 20 يوم</td>
+            <td>مركز الأساليب الذكية للتدريب</td>
+        </tr>
+        <tr>
+            <td>2022</td>
+            <td><a href="courses/2022/SarahAbdullah Alshehr-CCNA3-certificate.pdf">الشبكات المؤسسية، الأمن، والأتمتة (ضمن برنامج CCNA من Cisco)</a></td>
+            <td> تُقدر بحوالي 40 ساعة</td>
+            <td>Cisco Networking Academy</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td><a href="courses/2021/SarahAbdullah Alshehr-CCNA2-certificate.pdf">أساسيات التوجيه والتبديل (ضمن برنامج CCNA من Cisco)</a></td>
+            <td> تُقدر بحوالي 40 ساعة</td>
+            <td>Cisco Networking Academy</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td><a href="courses/2021/certificate cyber .pdf">الأمن السيبراني</a></td>
+            <td> 4 أيام</td>
+            <td>مركز النخبة المتميزة للتدريب</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td><a href="courses/2021/HUAWEI Certificate .jpg">برنامج تدريبي من هواوي: Seeds for the Future </a></td>
+            <td> 8 أيام</td>
+            <td>Huawei</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td><a href="courses/2021/kaspersky certificate.pdf">مقدمة في الأمن السيبراني- كاسبرسكاي</a></td>
+            <td> 3 أيام</td>
+            <td>kaspersky</td>
+        </tr>
+      
+    </table>
+
+    <footer>
+        <p>حقوق الطبع والنشر © 2024. جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
